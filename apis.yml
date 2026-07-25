@@ -1,20 +1,53 @@
 aid: convey
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/convey.png
 name: Convey
-description: Convey is a company surfaced as a portfolio company of a16z, techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Convey is an enterprise AI platform for building and running autonomous "digital
+  teammates" — AI workers that non-technical operators train by describing a workflow or sharing
+  their screen, after which the teammate runs business processes end to end across existing
+  enterprise systems (Salesforce, NetSuite, ad operations, reporting) with role-based access,
+  isolated agent identities, dedicated credentials, audit logs, and escalation to a human on
+  high-stakes decisions. Founded by former DoorDash and project44 engineers, Convey raised a $38M
+  Series A led by Andreessen Horowitz in June 2026 (with Khosla Ventures and Pear VC) and reports
+  1.1M+ hours of work completed for customers including NBCUniversal, TelevisaUnivision, Unity, and
+  Samsara. The platform is SOC 2 Type II and HIPAA compliant. Convey is an enterprise, contact-sales
+  product with no public developer API or documentation surface as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/convey/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
-- techstars
+- Khosla Ventures
+- Pear VC
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-disambiguation: 'This profile is the a16z-backed Convey AI (convey.dev), founded 2025. The
+  original apis.yml domain getconvey.com is a DIFFERENT company — the last-mile-delivery/logistics
+  Convey (Techstars-backed, founded 2013) that was acquired by project44; getconvey.com now 301s to
+  project44.com. The techstars backer originally recorded on this stub belongs to that logistics
+  company, not to Convey AI.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Automation
+- Enterprise
+- Workflow Automation
+- Digital Workers
+- Operations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +55,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/convey-domain-security.yml
 - type: Website
-  url: https://getconvey.com/
+  url: https://convey.dev/
+- type: Blog
+  url: https://convey.dev/blog
+- type: Support
+  url: https://convey.dev/contact
+- type: TermsOfService
+  url: https://convey.dev/terms
+- type: PrivacyPolicy
+  url: https://convey.dev/privacy
+- type: TrustCenter
+  url: https://trust.convey.dev/
+- type: Compliance
+  url: https://trust.convey.dev/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
