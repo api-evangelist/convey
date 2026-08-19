@@ -36,7 +36,7 @@ x-disambiguation: 'This profile is the a16z-backed Convey AI (convey.dev), found
   Convey (Techstars-backed, founded 2013) that was acquired by project44; getconvey.com now 301s to
   project44.com. The techstars backer originally recorded on this stub belongs to that logistics
   company, not to Convey AI.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
