@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Convey is a company surfaced as a portfolio company of a16z, techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Convey is an enterprise AI platform for building and running autonomous "digital teammates" — AI workers that non-technical operators train by describing a workflow or sharing their screen, after which the teammate runs business processes end to end across existing enterprise systems (Salesforce, NetSuite, ad operations, reporting) with role-based access, isolated agent identities, dedicated credentials, audit logs, and escalation to a human on high-stakes decisions. Founded by former DoorDash and project44 engineers, Convey raised a $38M Series A led by Andreessen Horowitz in June 2026 (with Khosla Ventures and Pear VC) and reports 1.1M+ hours of work completed for customers including NBCUniversal, TelevisaUnivision, Unity, and Samsara. The platform is SOC 2 Type II and HIPAA compliant. Convey is an enterprise, contact-sales product with no public developer API or documentation surface as of this profile.
 
-Backed by: a16z, techstars — https://getconvey.com/
+**Areas:** Company · Artificial Intelligence · AI Agents · Automation · Enterprise · Workflow Automation · Digital Workers
+
+## Convey on APIs.io
+
+Everything profiled for Convey is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/convey/](https://apis.io/providers/convey/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Convey Domain Security](https://apis.io/security/convey/convey-domain-security/)
+- [Convey Trust Center](https://apis.io/security/convey/convey-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://convey.dev/)
+- [Support](https://convey.dev/contact)
+- [Blog](https://convey.dev/blog)
+- [Compliance](https://trust.convey.dev/)
+- [Trust centre](https://trust.convey.dev/)
+- [Terms of service](https://convey.dev/terms)
+- [Privacy policy](https://convey.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/convey/](https://apis.io/providers/convey/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Convey: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/convey/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
